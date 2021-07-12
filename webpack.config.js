@@ -9,12 +9,12 @@ module.exports = {
     publicPath: '/'
   },
 
-  devtool: 'source-map',
+  devtool: 'eval-cheap-module-source-map',
 
   devServer: {
     contentBase: path.resolve(__dirname, 'public'),
     historyApiFallback: true,
-    hotOnly: true
+    hot: true
   },
 
   module: {
