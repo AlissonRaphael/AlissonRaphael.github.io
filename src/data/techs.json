@@ -1,0 +1,202 @@
+{
+  "techs": [
+    {
+      "name": "ReactJS",
+      "type": "Frontend library",
+      "icon": "SiReact",
+      "color": "#61DAFB"
+    },
+    {
+      "name": "Redux",
+      "type": "Frontend library",
+      "icon": "SiRedux",
+      "color": "#764ABC"
+    },
+    {
+      "name": "ReactRouter",
+      "type": "Frontend library",
+      "icon": "SiReactrouter",
+      "color": "#CA4245"
+    },
+    {
+      "name": "Styled-Components",
+      "type": "Frontend library",
+      "icon": "SiStyledComponents",
+      "color": "#DB7093"
+    },
+    {
+      "name": "Sass",
+      "type": "Frontend",
+      "icon": "SiSass",
+      "color": "#CC6699"
+    },
+    {
+      "name": "Framer Motion",
+      "type": "Frontend library",
+      "icon": "SiFramer",
+      "color": "#0055FF"
+    },
+    {
+      "name": "Next.Js",
+      "type": "Frontend framework",
+      "icon": "SiNextDotJs",
+      "color": "#000000"
+    },
+    {
+      "name": "Gatsby",
+      "type": "Frontend framework",
+      "icon": "SiGatsby",
+      "color": "#663399"
+    },
+    {
+      "name": "Webpack",
+      "type": "Frontend",
+      "icon": "SiWebpack",
+      "color": "#8DD6F9"
+    },
+    {
+      "name": "Babel",
+      "type": "Frontend",
+      "icon": "SiBabel",
+      "color": "#F9DC3E"
+    },
+    {
+      "name": "Node.Js",
+      "type": "Backend",
+      "icon": "SiNodeDotJs",
+      "color": "#339933"
+    },
+    {
+      "name": "AdonisJS",
+      "type": "Backend framework",
+      "icon": "SiAdonisjs",
+      "color": "#220052"
+    },
+    {
+      "name": "NestJS",
+      "type": "Backend framework",
+      "icon": "SiAdonisjs",
+      "color": "#E0234E"
+    },
+    {
+      "name": "NestJS",
+      "type": "Backend framework",
+      "icon": "SiAdonisjs",
+      "color": "#E0234E"
+    },
+    {
+      "name": "PostgreSQL",
+      "type": "Backend",
+      "icon": "SiPostgresql",
+      "color": "#4169E1"
+    },
+    {
+      "name": "MongoDB",
+      "type": "Backend",
+      "icon": "SiMongodb",
+      "color": "#47A248"
+    },
+    {
+      "name": "MongoDB",
+      "type": "Backend",
+      "icon": "SiMongodb",
+      "color": "#47A248"
+    },
+    {
+      "name": "Redis",
+      "type": "Backend",
+      "icon": "SiRedis",
+      "color": "#DC382D"
+    },
+    {
+      "name": "Swagger",
+      "type": "Tool",
+      "icon": "SiSwagger",
+      "color": "#85EA2D"
+    },
+    {
+      "name": "GraphQL",
+      "type": "Query Language",
+      "icon": "SiGraphql",
+      "color": "#E434AA"
+    },
+    {
+      "name": "Jest",
+      "type": "Framework",
+      "icon": "SiJest",
+      "color": "#C21325"
+    },
+    {
+      "name": "TypeScript",
+      "type": "Language",
+      "icon": "SiTypescript",
+      "color": "#85EA2D"
+    },
+    {
+      "name": "JavaScript",
+      "type": "Language",
+      "icon": "SiJavascript",
+      "color": "#F7DF1E"
+    },
+    {
+      "name": "Python",
+      "type": "Language",
+      "icon": "SiPython",
+      "color": "#3776AB"
+    },
+    {
+      "name": "ESLint",
+      "type": "Tool",
+      "icon": "SiEslint",
+      "color": "#4B32C3"
+    },
+    {
+      "name": "Prettier",
+      "type": "Tool",
+      "icon": "SiPrettier",
+      "color": "#F7B93E"
+    },
+    {
+      "name": "Git",
+      "type": "Tool",
+      "icon": "SiGit",
+      "color": "#F05032"
+    },
+    {
+      "name": "Nodemon",
+      "type": "Tool",
+      "icon": "SiNodemon",
+      "color": "#76D04B"
+    },
+    {
+      "name": "Docker",
+      "type": "Tool",
+      "icon": "SiDocker",
+      "color": "#2496ED"
+    },
+    {
+      "name": "Kubernetes",
+      "type": "DevOps",
+      "icon": "SiKubernetes",
+      "color": "#326CE5"
+    },
+    {
+      "name": "RabbitMQ",
+      "type": "DevOps",
+      "icon": "SiRabbitmq",
+      "color": "#FF6600"
+    },
+    {
+      "name": "Apache Kafka",
+      "type": "DevOps",
+      "icon": "SiApachekafka",
+      "color": "#231F20"
+    },
+    {
+      "name": "Elastic Stack",
+      "type": "DevOps",
+      "icon": "SiElasticstack",
+      "color": "#005571"
+    }
+  ]
+}
