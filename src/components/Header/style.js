@@ -6,6 +6,7 @@ export const HeaderComponent = styled(motion.header)`
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 2;
   width: 100vw;
   padding: 32px 32px;
   display: flex;
