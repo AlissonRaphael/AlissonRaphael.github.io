@@ -1,9 +1,9 @@
 import React from 'react'
 
 import './Styles/Global.css'
-import Header from './components/Header/Header.js'
-import Scrollbar from './components/Scrollbar/Scrollbar.js'
-
+import Header from './components/Header'
+import Scrollbar from './components/Scrollbar'
+import SectionOne from './components/SectionOne'
 
 export default function App(){
 
@@ -14,6 +14,7 @@ export default function App(){
       <span className='noise'></span>
       <Scrollbar/>
       <Header/>
+      <SectionOne/>
     </>
   )
 }
