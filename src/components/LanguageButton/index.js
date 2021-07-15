@@ -37,7 +37,7 @@ export default function LanguageButton({ children, isActive }){
         /> :
         null
       }
-      { isActive ? <OutlineButton/> : null }
+      { isActive && !isOver ? <OutlineButton/> : null }
 
     </ButtonContainer>
   )

@@ -23,10 +23,10 @@ export const ButtonContainer = styled.a`
 
 export const ButtonAnimation = styled(motion.div)`
   position: absolute;
-  bottom: -2px;
+  bottom: 1px;
   left: 0;
   z-index: -1;
-  height: 12px;
+  height: 8px;
   background-color: tomato;
   width: 12px;
 
@@ -42,6 +42,7 @@ export const OutlineButton = styled.span`
   position: absolute;
   bottom: -2px;
   left: 0;
+  z-index: -1;
   height: 1px;
   background-color: #fff;
   width: 90%;
