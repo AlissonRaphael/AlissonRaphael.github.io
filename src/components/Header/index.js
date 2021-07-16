@@ -22,9 +22,9 @@ const HeaderVariants = {
 
 export default function Header(){
   const { scrollYProgress } = useViewportScroll()
-  const sizeMenu = useTransform(scrollYProgress, [0,0.03], [`32px 24px`,`8px 24px`])
+  const sizeMenu = useTransform(scrollYProgress, [0,0.03], [`2.4vw 1.3vw`,`0.8vw 1.3vw`])
   const opacityMenu = useTransform(scrollYProgress, [0,0.03], [1,0.1])
-  const transparentBgMenu = useTransform(scrollYProgress, [0,0.03], [`rgba(0, 0, 0, 0.15)`,`rgba(0, 0, 0, 0)`])
+  const transparentBgMenu = useTransform(scrollYProgress, [0,0.03], [`rgba(0, 0, 0, 0.7)`,`rgba(0, 0, 0, 0)`])
   const shadowHeader = useTransform(scrollYProgress,[0, 0.03],[`0px 3px 10px rgba(0,0,0,0.3)`,`0px 0px 0px rgba(0,0,0,0)`])
 
   return (
