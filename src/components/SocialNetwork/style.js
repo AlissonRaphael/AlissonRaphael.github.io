@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { motion } from 'framer-motion'
 
 export const Container = styled(motion.div)`
-  position: absolute;
+  position: fixed;
   top: 43vw;
   left: 25vw;
   width: 50vw;
@@ -16,6 +16,7 @@ export const Container = styled(motion.div)`
     position: initial;
     padding: 1vw;
     cursor: pointer;
+    z-index: 100;
 
     #social-network-title {
       display: flex;
