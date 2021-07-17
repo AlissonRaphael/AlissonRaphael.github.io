@@ -3,14 +3,14 @@ import { motion } from "framer-motion"
 
 export const BoxContainer = styled(motion.div)`
   div.box {
-    position: absolute;
+    position: fixed;
     top: 11vw;
     left: 35vw;
 
     height: calc(260vw/9);
     width: calc(260vw/16);
-    border: 4px solid tomato;
-    border-right: none;
+    border: 4px solid rgb(255, 99, 71);
+    border-right: 0px solid rgb(0, 0, 0);
 
     ::before {
       content: '';
@@ -34,7 +34,7 @@ export const BoxContainer = styled(motion.div)`
   }
 
   div.text {
-    position: absolute;
+    position: fixed;
     top: 20.6vw;
     right: 22vw;
 
