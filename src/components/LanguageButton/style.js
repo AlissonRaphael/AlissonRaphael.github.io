@@ -16,7 +16,7 @@ export const ButtonContainer = styled.a`
 
 
   span.text {
-    z-index: 1;
+    z-index: 100;
   }
 
 `
