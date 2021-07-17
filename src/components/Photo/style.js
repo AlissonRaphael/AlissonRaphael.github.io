@@ -2,14 +2,14 @@ import styled from "styled-components"
 import { motion } from "framer-motion"
 
 export const PhotoContainer = styled(motion.div)`
-  position: absolute;
+  position: fixed;
   top: 7vw;
   left: 12vw;
 
   height: calc(350vw/9);
   width: calc(350vw/16);
   background-size: cover;
-  background-position: center;
+  background-position: 50% 50%;
   z-index: -1;
 
   animation-name: brilho;
