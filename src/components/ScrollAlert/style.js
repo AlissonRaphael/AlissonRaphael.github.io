@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 
 export const Container = styled(motion.div)`
-  position: absolute;
+  position: fixed;
   top: 25vw;
   right: 3vw;
   width: 5vw;

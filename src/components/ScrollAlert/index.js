@@ -1,8 +1,9 @@
-import React from 'react'
-import { motion } from 'framer-motion'
+import React, { useState, useContext, useEffect } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 
 import { Container } from './style.js'
+import MyContext from '../../MyContext.js'
 
 
 const showScrollButton = {
@@ -19,6 +20,10 @@ const showScrollButton = {
       type: 'spring',
       ease: 400
     }
+  },
+  exit: {
+    opacity: 0,
+    transition: { duration: 0.5 }
   }
 }
 
@@ -49,34 +54,48 @@ const scrollArrowVariants = {
 }
 
 export default function ScrollAlert(){
+  const { scrollPosition } = useContext(MyContext)
+  const [ wasScrolled, setWasScrolled ] = useState(false)
+
+  useEffect(() => {
+    if(scrollPosition !== 0) setWasScrolled(true)
+    if(scrollPosition === 0) setWasScrolled(false)
+  }, [scrollPosition])
+
   return (
-    <Container
-      id="scroll-alert"
-      variants={showScrollButton}
-      initial='hidden'
-      animate='show'
-    >
-
-      <motion.div
-        id="scroll-alert"
-        variants={scrollAlertVariants}
-        initial='hidden'
-        animate='button'
-      >
-        <motion.div
-          id='scroll-alert-icon'
-          variants={scrollArrowVariants}
-          animate='arrow'
+    <AnimatePresence>
+      { !wasScrolled &&
+        <Container
+          id="scroll-alert"
+          variants={showScrollButton}
+          initial='hidden'
+          animate='show'
+          exit='exit'
+          key='scroll-alert'
         >
-          <MdKeyboardArrowDown/>
-        </motion.div>
-
-        <motion.div id='scroll-alert-text'>
-          scroll
-        </motion.div>
-
-      </motion.div>
-
-    </Container>
+  
+          <motion.div
+            id="scroll-alert"
+            variants={scrollAlertVariants}
+            initial='hidden'
+            animate='button'
+          >
+            <motion.div
+              id='scroll-alert-icon'
+              variants={scrollArrowVariants}
+              animate='arrow'
+            >
+              <MdKeyboardArrowDown/>
+            </motion.div>
+  
+            <motion.div id='scroll-alert-text'>
+              scroll
+            </motion.div>
+  
+          </motion.div>
+  
+        </Container>
+      }
+    </AnimatePresence>
   )
 }
