@@ -1,202 +1,298 @@
 {
   "techs": [
     {
+      "name": "React Native",
+      "tech": "Mobile",
+      "type": "Mobile",
+      "icon": "react"
+    },
+    {
+      "name": "Expo",
+      "tech": "Mobile",
+      "type": "Mobile",
+      "icon": "expo"
+    },
+    {
       "name": "ReactJS",
+      "tech": "Frontend",
       "type": "Frontend library",
-      "icon": "SiReact",
-      "color": "#61DAFB"
+      "icon": "react"
     },
     {
       "name": "Redux",
+      "tech": "Frontend",
       "type": "Frontend library",
-      "icon": "SiRedux",
-      "color": "#764ABC"
+      "icon": "redux"
     },
     {
       "name": "ReactRouter",
+      "tech": "Frontend",
       "type": "Frontend library",
-      "icon": "SiReactrouter",
-      "color": "#CA4245"
+      "icon": "reactrouter"
     },
     {
-      "name": "Styled-Components",
+      "name": "Styled Comp...",
+      "tech": "Frontend",
       "type": "Frontend library",
-      "icon": "SiStyledComponents",
-      "color": "#DB7093"
+      "icon": "styledcomponents"
     },
     {
       "name": "Sass",
+      "tech": "Frontend",
       "type": "Frontend",
-      "icon": "SiSass",
-      "color": "#CC6699"
+      "icon": "sass"
     },
     {
       "name": "Framer Motion",
+      "tech": "Frontend",
       "type": "Frontend library",
-      "icon": "SiFramer",
-      "color": "#0055FF"
+      "icon": "framer"
     },
     {
       "name": "Next.Js",
+      "tech": "Frontend",
       "type": "Frontend framework",
-      "icon": "SiNextDotJs",
-      "color": "#000000"
+      "icon": "nextdotjs"
     },
     {
       "name": "Gatsby",
+      "tech": "Frontend",
       "type": "Frontend framework",
-      "icon": "SiGatsby",
-      "color": "#663399"
+      "icon": "gatsby"
     },
     {
-      "name": "Webpack",
-      "type": "Frontend",
-      "icon": "SiWebpack",
-      "color": "#8DD6F9"
+      "name": "Firebase",
+      "tech": "Mobile",
+      "type": "Platform",
+      "icon": "firebase"
+    },
+    {
+      "name": "Supabase",
+      "tech": "Mobile",
+      "type": "Platform",
+      "icon": "supabase"
     },
     {
       "name": "Babel",
+      "tech": "Frontend",
       "type": "Frontend",
-      "icon": "SiBabel",
-      "color": "#F9DC3E"
+      "icon": "babel"
+    },
+    {
+      "name": "Webpack",
+      "tech": "Frontend",
+      "type": "Module bundler",
+      "icon": "webpack"
     },
     {
       "name": "Node.Js",
+      "tech": "Backend",
+      "type": "Runtime Software",
+      "icon": "nodedotjs"
+    },
+    {
+      "name": "Express",
+      "tech": "Backend",
+      "type": "Backend framework",
+      "icon": "express"
+    },
+    {
+      "name": "JWT",
+      "tech": "Backend",
       "type": "Backend",
-      "icon": "SiNodeDotJs",
-      "color": "#339933"
+      "icon": "jsonwebtokens"
     },
     {
       "name": "AdonisJS",
+      "tech": "Backend",
       "type": "Backend framework",
-      "icon": "SiAdonisjs",
-      "color": "#220052"
+      "icon": "adonisjs"
     },
     {
       "name": "NestJS",
+      "tech": "Backend",
       "type": "Backend framework",
-      "icon": "SiAdonisjs",
-      "color": "#E0234E"
-    },
-    {
-      "name": "NestJS",
-      "type": "Backend framework",
-      "icon": "SiAdonisjs",
-      "color": "#E0234E"
+      "icon": "nestjs"
     },
     {
       "name": "PostgreSQL",
+      "tech": "Backend",
       "type": "Backend",
-      "icon": "SiPostgresql",
-      "color": "#4169E1"
+      "icon": "postgresql"
+    },
+    {
+      "name": "Sequelize",
+      "tech": "Backend",
+      "type": "ORM",
+      "icon": "sequelize"
+    },
+    {
+      "name": "Prisma",
+      "tech": "Backend",
+      "type": "ORM",
+      "icon": "prisma"
     },
     {
       "name": "MongoDB",
-      "type": "Backend",
-      "icon": "SiMongodb",
-      "color": "#47A248"
-    },
-    {
-      "name": "MongoDB",
-      "type": "Backend",
-      "icon": "SiMongodb",
-      "color": "#47A248"
+      "tech": "Backend",
+      "type": "Database",
+      "icon": "mongodb"
     },
     {
       "name": "Redis",
-      "type": "Backend",
-      "icon": "SiRedis",
-      "color": "#DC382D"
+      "tech": "Backend",
+      "type": "Database",
+      "icon": "redis"
+    },
+    {
+      "name": "Neo4j",
+      "tech": "Backend",
+      "type": "Database",
+      "icon": "neo4j"
+    },
+    {
+      "name": "Mongoose",
+      "tech": "Backend",
+      "type": "ODM",
+      "icon": "mongodb"
     },
     {
       "name": "Swagger",
+      "tech": "Other",
       "type": "Tool",
-      "icon": "SiSwagger",
-      "color": "#85EA2D"
+      "icon": "swagger"
     },
     {
       "name": "GraphQL",
+      "tech": "Backend",
       "type": "Query Language",
-      "icon": "SiGraphql",
-      "color": "#E434AA"
+      "icon": "graphql"
+    },
+    {
+      "name": "Apollo GraphQL",
+      "tech": "Backend",
+      "type": "Query Language",
+      "icon": "apollographql"
     },
     {
       "name": "Jest",
+      "tech": "Backend",
       "type": "Framework",
-      "icon": "SiJest",
-      "color": "#C21325"
-    },
-    {
-      "name": "TypeScript",
-      "type": "Language",
-      "icon": "SiTypescript",
-      "color": "#85EA2D"
-    },
-    {
-      "name": "JavaScript",
-      "type": "Language",
-      "icon": "SiJavascript",
-      "color": "#F7DF1E"
-    },
-    {
-      "name": "Python",
-      "type": "Language",
-      "icon": "SiPython",
-      "color": "#3776AB"
+      "icon": "jest"
     },
     {
       "name": "ESLint",
+      "tech": "Other",
       "type": "Tool",
-      "icon": "SiEslint",
-      "color": "#4B32C3"
+      "icon": "eslint"
     },
     {
       "name": "Prettier",
+      "tech": "Other",
       "type": "Tool",
-      "icon": "SiPrettier",
-      "color": "#F7B93E"
+      "icon": "prettier"
     },
     {
       "name": "Git",
+      "tech": "Other",
       "type": "Tool",
-      "icon": "SiGit",
-      "color": "#F05032"
+      "icon": "git"
     },
     {
       "name": "Nodemon",
+      "tech": "Backend",
       "type": "Tool",
-      "icon": "SiNodemon",
-      "color": "#76D04B"
+      "icon": "nodemon"
     },
     {
       "name": "Docker",
+      "tech": "Backend",
       "type": "Tool",
-      "icon": "SiDocker",
-      "color": "#2496ED"
-    },
-    {
-      "name": "Kubernetes",
-      "type": "DevOps",
-      "icon": "SiKubernetes",
-      "color": "#326CE5"
-    },
-    {
-      "name": "RabbitMQ",
-      "type": "DevOps",
-      "icon": "SiRabbitmq",
-      "color": "#FF6600"
+      "icon": "docker"
     },
     {
       "name": "Apache Kafka",
+      "tech": "Backend",
+      "type": "Message Brokers",
+      "icon": "apachekafka"
+    },
+    {
+      "name": "Kubernetes",
+      "tech": "DevOps",
       "type": "DevOps",
-      "icon": "SiApachekafka",
-      "color": "#231F20"
+      "icon": "kubernetes"
+    },
+    {
+      "name": "GitHub Actions",
+      "tech": "DevOps",
+      "type": "DevOps",
+      "icon": "githubactions"
+    },
+    {
+      "name": "Grafana",
+      "tech": "DevOps",
+      "type": "DevOps",
+      "icon": "grafana"
+    },
+    {
+      "name": "RabbitMQ",
+      "tech": "Backend",
+      "type": "Message Brokers",
+      "icon": "rabbitmq"
     },
     {
       "name": "Elastic Stack",
+      "tech": "DevOps",
       "type": "DevOps",
-      "icon": "SiElasticstack",
-      "color": "#005571"
+      "icon": "elasticstack"
+    },
+    {
+      "name": "Amazon AWS",
+      "tech": "DevOps",
+      "type": "Cloud",
+      "icon": "amazonaws"
+    },
+    {
+      "name": "Npm",
+      "tech": "Other",
+      "type": "Package manager",
+      "icon": "npm"
+    },
+    {
+      "name": "Yarn",
+      "tech": "Other",
+      "type": "Package manager",
+      "icon": "yarn"
+    },
+    {
+      "name": "TypeScript",
+      "tech": "Backend",
+      "type": "Language",
+      "icon": "typescript"
+    },
+    {
+      "name": "JavaScript",
+      "tech": "Backend",
+      "type": "Language",
+      "icon": "javascript"
+    },
+    {
+      "name": "Elixir",
+      "tech": "Backend",
+      "type": "Language",
+      "icon": "elixir"
+    },
+    {
+      "name": "Go",
+      "tech": "Backend",
+      "type": "Language",
+      "icon": "go"
+    },
+    {
+      "name": "Python",
+      "tech": "Backend",
+      "type": "Language",
+      "icon": "python"
     }
   ]
 }
