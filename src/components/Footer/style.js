@@ -8,7 +8,7 @@ export const Container = styled(motion.div)`
   left: 0px;
   width: 100vw;
   background-color: rgba(0,0,0,0.2);
-  z-index: 2;
+  z-index: 200;
 
   display: flex;
   flex-direction: column;
@@ -51,6 +51,7 @@ export const Container = styled(motion.div)`
         font-size: 1vw;
         display: flex;
         align-items: center;
+        cursor: pointer;
 
         svg {
         font-size: 1.2vw;
