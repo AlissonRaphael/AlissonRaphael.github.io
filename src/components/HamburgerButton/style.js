@@ -7,7 +7,7 @@ export const ButtonMenu = styled(motion.div)`
   height: 28px;
   cursor: pointer;
   position: relative;
-  z-index: 100;
+  z-index: 500;
 
   div {
     position: absolute;

@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
 import { MdMenu, MdClose } from 'react-icons/md'
 import { motion, AnimatePresence } from 'framer-motion'
 
 
 import { ButtonMenu } from './style.js'
+import MyContext from '../../MyContext.js'
 
 
 const ButtonMenuVariants = {
@@ -27,7 +28,8 @@ const ButtonIconsVariants = {
 
 
 export default function HamburgerButton(){
-  const [isOpen, setIsOpen] = useState(false)
+  const { isOpen, setIsOpen } = useContext(MyContext)
+
 
   return (
     <ButtonMenu
