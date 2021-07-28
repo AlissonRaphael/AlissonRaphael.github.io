@@ -20,7 +20,7 @@ const HeaderVariants = {
 
 }
 
-export default function Header(){
+export default function Header({ children }){
   const { scrollYProgress } = useViewportScroll()
   const sizeMenu = useTransform(scrollYProgress, [0,0.03], [`2.4vw 1.3vw`,`0.8vw 1.3vw`])
   const opacityMenu = useTransform(scrollYProgress, [0,0.03], [1,0.1])
@@ -36,11 +36,10 @@ export default function Header(){
     >
       <Nav style={{ opacity: opacityMenu }}>
         <div>
-          <HamburgerButton/>
+          {children}
         </div>
         <div>
           <LanguageButton isActive={true}>pt</LanguageButton>
-          <LanguageButton>en</LanguageButton>
         </div>
       </Nav>
     </HeaderComponent>
