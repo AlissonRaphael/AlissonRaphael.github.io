@@ -91,7 +91,7 @@ export default function SocialNetwork(){
           >
 
             <motion.div id="social-network-title" variants={itemTitleVariants}>
-              <SiGithub/><span>Medium</span>
+              <SiMedium/><span>Medium</span>
             </motion.div>
 
             <motion.div id="social-network-desc" variants={itemDescVariants}>
