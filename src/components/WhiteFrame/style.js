@@ -15,7 +15,6 @@ export const Title = styled(motion.h1)`
   position: fixed;
   top: 10vw;
   font-size: 2.7vw;
-  transform: rotate(-90deg);
 `
 
 export const Quote = styled(motion.div)`

@@ -24,32 +24,31 @@ const FrameVariants = {
       ease: 'easeInOut'
     }
   },
-  third: {
-    top: `6vw`,
-    left: `${(100-(620/9))/2}vw`,
-    height: 'calc(620vw/16)',
-    width: 'calc(620vw/9)',
+  exit: {
+    top: '0vw',
+    left: '0vw',
+    height: '100vh',
+    width: '100vw',
     border: '1px solid rgba(255,99,71,1)',
     transition: {
       duration: 1.5,
       type: 'tween',
       ease: 'easeInOut'
     }
-  },
-  exit: {
-    opacity: 0,
   }
 }
 
 const TitleVariants = {
   hidden: {
     left: "17%",
-    opacity: 0
+    opacity: 0,
+    transform: 'rotate(-90deg)',
   },
   show: {
-    top: '10vw',
     left: "14.5%",
     opacity: 1,
+    transform: 'rotate(-90deg)',
+    top: '10vw',
     transition: {
       delay: 1,
       duration: 1,
@@ -58,8 +57,9 @@ const TitleVariants = {
     }
   },
   third: {
-    top: '8vw',
-    left: `${(100-(620/9))/2-5}vw`,
+    top: '6vw',
+    left: `6vw`,
+    transform: 'rotate(0deg)',
     transition: {
       duration: 1.5,
       type: 'tween',
@@ -84,11 +84,11 @@ const iconVariants = {
       duration: 2,
       type: 'tween',
       ease: 'easeOut'
-    },
-    exit: {
-      y: -50,
-      opacity: 0,
     }
+  },
+  exit: {
+    y: -50,
+    opacity: 0,
   }
 }
 
@@ -106,31 +106,17 @@ export default function WhiteFrame({ children }){
 
   return (
     <AnimatePresence>
-    { secondSectionRender | thirdSectionRender &&
+    { secondSectionRender &&
       <>
         <Frame
           variants={FrameVariants}
           initial='hidden'
-          animate={controls}
+          animate='show'
           exit='exit'
           key='photo'
           >
         </Frame>
 
-        <Title
-          variants={TitleVariants}
-          initial='hidden'
-          animate={controls}
-          exit='exit'
-          key='titlesecondsection'
-        >
-          About
-        </Title>
-
-      </>
-    }
-
-    { secondSectionRender &&
         <Quote
           variants={iconVariants}
           initial='hidden'
@@ -139,6 +125,19 @@ export default function WhiteFrame({ children }){
         >
           <IoMdQuote/>
         </Quote>
+      </>
+    }
+
+    { secondSectionRender | thirdSectionRender &&
+      <Title
+        variants={TitleVariants}
+        initial='hidden'
+        animate={controls}
+        exit='exit'
+        key='titlesecondsection'
+      >
+        About
+      </Title>
     }
     </AnimatePresence>
   )
