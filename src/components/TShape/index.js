@@ -129,7 +129,7 @@ export default function TShape({ children }){
             {
               techs.map((item,index) => {
                 if(item.tech === 'Mobile'){
-                  return <Tech id={index} tech={item} variants={techsVariants}/>
+                  return <Tech key={`mobile-${index}`} id={index} tech={item} variants={techsVariants}/>
                 }
               })
             }
@@ -158,7 +158,7 @@ export default function TShape({ children }){
             {
               techs.map((item,index) => {
                 if(item.tech === 'Frontend'){
-                  return <Tech id={index} tech={item} variants={techsVariants}/>
+                  return <Tech key={`frontend-${index}`} id={index} tech={item} variants={techsVariants}/>
                 }
               })
             }
@@ -187,7 +187,7 @@ export default function TShape({ children }){
             {
               techs.map((item,index) => {
                 if(item.tech === 'Backend'){
-                  return <Tech id={index} tech={item} variants={techsVariants}/>
+                  return <Tech key={`backend-${index}`}  id={index} tech={item} variants={techsVariants}/>
                 }
               })
             }
@@ -216,7 +216,7 @@ export default function TShape({ children }){
           {
               techs.map((item,index) => {
                 if(item.tech === 'DevOps'){
-                  return <Tech id={index} tech={item} variants={techsVariants}/>
+                  return <Tech key={`devops-${index}`}  id={index} tech={item} variants={techsVariants}/>
                 }
               })
             }
@@ -245,7 +245,7 @@ export default function TShape({ children }){
             {
               techs.map((item,index) => {
                 if(item.tech === 'Other'){
-                  return <Tech id={index} tech={item} variants={techsVariants}/>
+                  return <Tech key={`other-${index}`}  id={index} tech={item} variants={techsVariants}/>
                 }
               })
             }
