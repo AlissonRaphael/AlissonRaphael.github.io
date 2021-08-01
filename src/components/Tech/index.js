@@ -5,21 +5,21 @@ import * as Si  from 'simple-icons'
 import { Item } from './style.js'
 
 
-export default function Tech({ tech, key, variants, hover }){
+export default function Tech({ tech, variants, hover }){
   // const icon = require(`simple-icons/icons/${tech.icon}`)
   const icon = Si.Get(tech.icon)
 
 
   return (
     <Item
-      key={`item${key}`}
+      key={tech.name}
       style={{ backgroundColor: `#2b2b2b` }}
       variants={variants}
       whileHover={{
         backgroundColor: `#${icon.hex}`,
         zIndex: '1000',
         scale: 1.3,
-        transition: { duration: 1.2, type: 'spring', stiffness: 800 }
+        transition: { duration: 1.3, type: 'spring', stiffness: 800 }
       }}
     >
 
