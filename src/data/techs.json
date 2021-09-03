@@ -127,12 +127,6 @@
       "icon": "sequelize"
     },
     {
-      "name": "Prisma",
-      "tech": "Backend",
-      "type": "ORM",
-      "icon": "prisma"
-    },
-    {
       "name": "MongoDB",
       "tech": "Backend",
       "type": "Database",
@@ -143,12 +137,6 @@
       "tech": "Backend",
       "type": "Database",
       "icon": "redis"
-    },
-    {
-      "name": "Neo4j",
-      "tech": "Backend",
-      "type": "Database",
-      "icon": "neo4j"
     },
     {
       "name": "Mongoose",
@@ -211,12 +199,6 @@
       "icon": "docker"
     },
     {
-      "name": "Apache Kafka",
-      "tech": "Backend",
-      "type": "Message Brokers",
-      "icon": "apachekafka"
-    },
-    {
       "name": "Kubernetes",
       "tech": "DevOps",
       "type": "DevOps",
@@ -229,28 +211,10 @@
       "icon": "githubactions"
     },
     {
-      "name": "Grafana",
-      "tech": "DevOps",
-      "type": "DevOps",
-      "icon": "grafana"
-    },
-    {
       "name": "RabbitMQ",
       "tech": "Backend",
       "type": "Message Brokers",
       "icon": "rabbitmq"
-    },
-    {
-      "name": "Elastic Stack",
-      "tech": "DevOps",
-      "type": "DevOps",
-      "icon": "elasticstack"
-    },
-    {
-      "name": "Amazon AWS",
-      "tech": "DevOps",
-      "type": "Cloud",
-      "icon": "amazonaws"
     },
     {
       "name": "Npm",
@@ -283,16 +247,54 @@
       "icon": "elixir"
     },
     {
+      "name": "Python",
+      "tech": "Backend",
+      "type": "Language",
+      "icon": "python"
+    }
+  ],
+  "student": [
+    {
+      "name": "Prisma",
+      "tech": "Backend",
+      "type": "ORM",
+      "icon": "prisma"
+    },
+    {
       "name": "Go",
       "tech": "Backend",
       "type": "Language",
       "icon": "go"
     },
     {
-      "name": "Python",
+      "name": "Elastic Stack",
+      "tech": "DevOps",
+      "type": "DevOps",
+      "icon": "elasticstack"
+    },
+    {
+      "name": "Amazon AWS",
+      "tech": "DevOps",
+      "type": "Cloud",
+      "icon": "amazonaws"
+    },
+    {
+      "name": "Grafana",
+      "tech": "DevOps",
+      "type": "DevOps",
+      "icon": "grafana"
+    },
+    {
+      "name": "Neo4j",
       "tech": "Backend",
-      "type": "Language",
-      "icon": "python"
+      "type": "Database",
+      "icon": "neo4j"
+    },
+    {
+      "name": "Apache Kafka",
+      "tech": "Backend",
+      "type": "Message Brokers",
+      "icon": "apachekafka"
     }
   ]
 }
